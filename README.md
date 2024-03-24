@@ -27,5 +27,5 @@ ex: `/m BOT generating 7920 4 -1103 7920 4 -1111`
 ![image](https://hackmd.io/_uploads/SkilTSa0a.png)
 ![image](https://hackmd.io/_uploads/SycrTB6CT.png)
 
-7. 完成後也別忘記修改warp和分流
+7. 完成後也別忘記修改warp 分流以及overfull
 ![image](https://hackmd.io/_uploads/BJ2QpraCa.png)
