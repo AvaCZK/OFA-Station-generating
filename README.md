@@ -23,8 +23,9 @@ ex: `/m BOT generating 7920 4 -1103 7920 4 -1111`
 ![第一個盒子 (1)](https://hackmd.io/_uploads/BylGYSp0T.png)
 
 5. 生成出來的檔案會儲存在Bot目錄下的`materials.json`
+
 ![image](https://hackmd.io/_uploads/SkilTSa0a.png)
 ![image](https://hackmd.io/_uploads/SycrTB6CT.png)
 
-6. 完成後也別忘記修改warp和分流
+7. 完成後也別忘記修改warp和分流
 ![image](https://hackmd.io/_uploads/BJ2QpraCa.png)
