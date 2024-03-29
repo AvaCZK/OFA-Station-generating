@@ -85,7 +85,8 @@ async function generatingFile(message) {
     let boxMode
     let bottomMode
     let y = +message[5]
-
+    let z = +message[6]
+    let x = +message[4]
 
 
 
@@ -99,9 +100,9 @@ async function generatingFile(message) {
             bottomMode = "bW"
         }
 
-        let x = +message[4]
-        for (let z = +message[6]; z >= +message[9]; z--) {
-            block = await bot.world.getBlock(x, y - 5, z)
+
+        for (z; z >= +message[9]; z--) {
+            block = await bot.world.getBlock(new Vec3(x, y - 5, z))
             materialsPush = [block.name, [x, y, z, boxMode, bottomMode]]
             console.log(materialsPush)
             data.materials.push(materialsPush);
@@ -118,18 +119,6 @@ async function generatingFile(message) {
             bottomMode = "bN"
         }
 
-
-
-        // while (message[4] - message[7]) {
-        //     block = await bot.world.getBlock(new Vec3(x, y - 5, z))
-        //     console.log(x)
-        //     materialsPush = [block.name, [x, y, z, boxMode, bottomMode]]
-        //     console.log(materialsPush)
-        //     data.materials.push(materialsPush);
-        //     x -= 1
-        // }
-        let z = +message[6]
-        let x = +message[4]
 
         for (x; x >= (+message[7]); x--) {
             block = await bot.world.getBlock(new Vec3(x, y - 5, z))
