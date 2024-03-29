@@ -8,9 +8,9 @@
 具體可以參考`/warp CZKKKK_2`
 ![2024-03-24_15.57.57](https://hackmd.io/_uploads/B14HpLp06.png)
 
-3. 將Bot傳送到第一個盒子的對應按鈕上![2024-03-24_14.40.27](https://hackmd.io/_uploads/rJtliBaAp.png)
+4. 將Bot傳送到第一個盒子的對應按鈕上![2024-03-24_14.40.27](https://hackmd.io/_uploads/rJtliBaAp.png)
  
- 4. 要生成檔案的話請使用指令
+5. 要生成檔案的話請使用指令
 `/m BOT generating x1 y z1 x2 y z2`
 `x1 y z1`是第一個盒子座標
 `x2 y z2`是最後一個盒子座標
@@ -19,7 +19,7 @@ ex: `/m BOT generating 7920 4 -1103 7920 4 -1111`
 ***請注意: 前面的座標三個值都需要比後面的大或等於**
 ![第一個盒子 (1)](https://hackmd.io/_uploads/BylGYSp0T.png)
 
-5. 生成出來的檔案會儲存在Bot目錄下的`materials.json`
+6. 生成出來的檔案會儲存在Bot目錄下的`materials.json`
 ![image](https://hackmd.io/_uploads/SkilTSa0a.png)
 ![image](https://hackmd.io/_uploads/SycrTB6CT.png)
 
