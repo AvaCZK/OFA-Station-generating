@@ -6,7 +6,7 @@
 
 3. 需要將每個要加入座標檢測的盒子下方加上對應材料
 具體可以參考`/warp CZKKKK_2`
-![2024-03-24_15.57.57](https://hackmd.io/_uploads/B14HpLp06.png)
+![2024-03-24_15.57.57](https://cdn.discordapp.com/attachments/975416844628410381/1228695348411891822/68747470733a2f2f6861636b6d642e696f2f5f75706c6f6164732f42313448704c7030362e706e67.png?ex=662cfab7&is=661a85b7&hm=5634dbf8ef255cb42df35a118ad9766861a27ac14df29f99d56cef7c920157a0&)
 
 4. 將Bot傳送到第一個界伏盒的***對應按鈕***上![2024-03-24_14.40.27](https://hackmd.io/_uploads/rJtliBaAp.png)
  
