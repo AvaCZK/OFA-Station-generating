@@ -11,11 +11,11 @@
 4. 將Bot傳送到第一個盒子的對應按鈕上![2024-03-24_14.40.27](https://hackmd.io/_uploads/rJtliBaAp.png)
  
 5. 要生成檔案的話請使用指令
-`/m BOT generating 分流 公共傳點 x1 y z1 x2 y z2` OR `/m BOT SG 分流 公共傳點 x1 y z1 x2 y z2`
-`x1 y z1`是第一個盒子座標
-`x2 y z2`是最後一個盒子座標
-兩個盒子需要在同一個橫排上
-ex: `/m BOT generating 1 CZKKKK_2 7920 4 -1103 7920 4 -1111`
+`/m BOT generating 分流 公共傳點 x1 y z1 x2 y z2` OR `/m BOT SG 分流 公共傳點 x1 y z1 x2 y z2`  
+`x1 y z1`是第一個盒子座標  
+`x2 y z2`是最後一個盒子座標  
+兩個盒子需要在同一個橫排上  
+ex: `/m BOT generating 1 CZKKKK_2 7920 4 -1103 7920 4 -1111`  
 
 ***請注意: 前面的座標三個值都需要比後面的大或等於**
 ![第一個盒子 (1)](https://hackmd.io/_uploads/BylGYSp0T.png)
