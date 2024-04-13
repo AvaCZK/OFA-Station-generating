@@ -23,5 +23,4 @@ ex: `/m BOT SG 1 CZKKKK_2 7920 4 -1103 7920 4 -1111`
 ex: `/m BOT file materials`
 
 7. 生成出來的檔案會儲存在Bot目錄下的`materials.json`
-![image](https://hackmd.io/_uploads/SkilTSa0a.png)
-![image](https://hackmd.io/_uploads/SycrTB6CT.png)
+
