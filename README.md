@@ -8,7 +8,7 @@
 具體可以參考`/warp CZKKKK_2`
 ![2024-03-24_15.57.57](https://hackmd.io/_uploads/B14HpLp06.png)
 
-4. 將Bot傳送到第一個盒子的對應按鈕上![2024-03-24_14.40.27](https://hackmd.io/_uploads/rJtliBaAp.png)
+4. 將Bot傳送到第一個盒子的_***對應按鈕***_上![2024-03-24_14.40.27](https://hackmd.io/_uploads/rJtliBaAp.png)
  
 5. 要生成檔案的話請使用指令
 `/m BOT generating 分流 公共傳點 x1 y z1 x2 y z2` OR `/m BOT SG 分流 公共傳點 x1 y z1 x2 y z2`  
