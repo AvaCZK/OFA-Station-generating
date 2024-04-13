@@ -14,10 +14,9 @@
 `/m BOT generating 分流 公共傳點 x1 y z1 x2 y z2` OR `/m BOT SG 分流 公共傳點 x1 y z1 x2 y z2`  
 `x1 y z1`是第一個盒子座標  
 `x2 y z2`是最後一個盒子座標  
-兩個盒子需要在同一個橫排上  
 ex: `/m BOT SG 1 CZKKKK_2 7920 4 -1103 7920 4 -1111`  
 
-***請注意: 前面的座標三個值都需要比後面的大或等於**
+***請注意: 前面的座標三個值都需要比後面的大或等於且兩個盒子需要在同一個橫排上**
 ![第一個盒子 (1)](https://hackmd.io/_uploads/BylGYSp0T.png)
 
 6. 生成出來的檔案會儲存在Bot目錄下的`materials.json`
