@@ -71,8 +71,16 @@ function connect() {
 
                 switch (message[3]) {
 
-                    case 'generating':
+                    case 'generating' :
                         await generatingFile(message)
+                        break
+                    case 'SG':
+                        await generatingFile(message)
+                        break
+                    case 'file':
+                        fs.writeFileSync(`${message[4]}.json`, JSON.stringify(data, null, 2));
+                        bot.chat(`/r 已輸出檔案${message[4]}.json，請確認Bot當前目錄`)
+                        break
                 }
             }
         })
@@ -84,54 +92,69 @@ function connect() {
 async function generatingFile(message) {
     let boxMode
     let bottomMode
-    let y = +message[5]
-    let z = +message[6]
-    let x = +message[4]
+    data['stationServer'] = message[4]
+    data['stationWarp'] = message[5]
+    let y = +message[7]
+    let z = +message[8]
+    let x = +message[6]
 
 
 
-    if (message[4] - message[7] === 0) { //第一種情況
-        if (bot.entity.position.x - message[4] > 1) {
+    if (message[6] - message[9] === 0) {
+        console.log("K")
+        if (bot.entity.position.x - message[6] > 1) {
             boxMode = "E"
             bottomMode = "bE"
         }
-        if (bot.entity.position.x - message[4] < -1) {
+        if (bot.entity.position.x - message[6] < -1) {
             boxMode = "W"
             bottomMode = "bW"
         }
 
 
-        for (z; z >= +message[9]; z--) {
-            block = await bot.world.getBlock(new Vec3(x, y - 5, z))
-            materialsPush = [block.name, [x, y, z, boxMode, bottomMode]]
-            console.log(materialsPush)
-            data.materials.push(materialsPush);
+        for (z; z >= +message[11]; z--) {
+            for (let i = y - 5; i >= -64; i--) {
+                block = await bot.world.getBlock(new Vec3(x, i, z))
+                if (block.name === ('air' || 'cave_air' || 'bedrock')) {
+                    break
+                }
+                materialsPush = [block.name, [x, y, z, boxMode, bottomMode]]
+                console.log(materialsPush)
+                data.materials.push(materialsPush);
+            }
         }
     }
 
-    if (message[6] - message[9] === 0) {
-        if (bot.entity.position.z - message[6] > 1) {
+    if (message[8] - message[11] === 0) {
+        if (bot.entity.position.z - message[8] > 1) {
             boxMode = "S"
             bottomMode = "bS"
         }
-        if (bot.entity.position.z - message[6] < -1) {
+        if (bot.entity.position.z - message[8] < -1) {
             boxMode = "N"
             bottomMode = "bN"
         }
 
 
-        for (x; x >= (+message[7]); x--) {
-            block = await bot.world.getBlock(new Vec3(x, y - 5, z))
-            materialsPush = [block.name, [x, y, z, boxMode, bottomMode]]
-            console.log(materialsPush)
-            data.materials.push(materialsPush);
+        for (x; x >= (+message[9]); x--) {
+            for (let i = y - 5; i >= -64 ; i--) {
+                block = await bot.world.getBlock(new Vec3(x, i, z))
+                if (block.name === ('air' || 'cave_air' || 'bedrock')) {
+                    break
+                }
+                materialsPush = [block.name, [x, y, z, boxMode, bottomMode]]
+                console.log(materialsPush)
+                data.materials.push(materialsPush);
+            }
+            
+
         }
     }
 
-    fs.writeFileSync('materials.json', JSON.stringify(data, null, 2));
+    
 
 
-    bot.chat("/r 檔案已生成完成")
+    bot.chat("/r 已完成操作")
 }
 
 
