@@ -2,7 +2,7 @@
 1. 請至release下載最新的檔案(`OFA-SG.exe
 `)
 2. 首次點開會有config.json建立通知 並將黃色筆跡複製進瀏覽器進行登入
-![image](https://hackmd.io/_uploads/BJxGHSp0T.png)
+![image]([https://hackmd.io/_uploads/BJxGHSp0T.png](https://cdn.discordapp.com/attachments/975416844628410381/1228694882328117358/68747470733a2f2f6861636b6d642e696f2f5f75706c6f6164732f424a784748537030542e706e67.png?ex=662cfa47&is=661a8547&hm=1c7ce11a9af33f6a0719eb1fe5c4491abd64b854806458220add7d3755a76d41&))
 
 3. 需要將每個要加入座標檢測的盒子下方加上對應材料
 具體可以參考`/warp CZKKKK_2`
