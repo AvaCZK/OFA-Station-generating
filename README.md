@@ -24,3 +24,4 @@ ex: `/m BOT file materials`
 
 7. 生成出來的檔案會儲存在Bot目錄下的`materials.json`
 
+# 單盒多材料模式
