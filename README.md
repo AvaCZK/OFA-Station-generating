@@ -2,11 +2,11 @@
 1. 請至release下載最新的檔案(`OFA-SG.exe
 `)
 2. 首次點開會有config.json建立通知 並將黃色筆跡複製進瀏覽器進行登入
-![image](https://cdn.discordapp.com/attachments/975416844628410381/1221447898919862332/upload_73576c569a382b2e4286e87f595df93a.png?ex=664bf640&is=664aa4c0&hm=8822d453a64c50f440285dbcca4ae5ad98c4cb106549f3f6126c248a2d25245a&)
+![image](https://media.discordapp.net/attachments/975416844628410381/1228694882328117358/68747470733a2f2f6861636b6d642e696f2f5f75706c6f6164732f424a784748537030542e706e67.png?ex=665d1907&is=665bc787&hm=8b68bf52221e1b874238764668462565474958c456f0f8dfe6296b82120e41a1&=&format=webp&quality=lossless&width=1440&height=195)
 
 3. 需要將每個要加入座標檢測的盒子下方加上對應材料
 具體可以參考`/warp CZKKKK_2`
-![2024-03-24_15.57.57](https://cdn.discordapp.com/attachments/975416844628410381/1221447960177414204/upload_bbdab7e9d674ddddf35a1806db8386a4.png?ex=664bf64f&is=664aa4cf&hm=7bd31d896681f77770de1ca305148bc92bf78b9fe6b135ca5a2ad074984915ab&)
+![2024-03-24_15.57.57](https://media.discordapp.net/attachments/975416844628410381/1228695348411891822/68747470733a2f2f6861636b6d642e696f2f5f75706c6f6164732f42313448704c7030362e706e67.png?ex=665d1977&is=665bc7f7&hm=6ac46c4f33fc8543690eedaf75d221f61856485643a526edeca1a82cc8c8ed01&=&format=webp&quality=lossless&width=687&height=386)
 
 4. 將Bot傳送到第一個界伏盒的***對應按鈕***上![2024-03-24_14.40.27](https://hackmd.io/_uploads/rJtliBaAp.png)
  
