@@ -17,7 +17,7 @@
 ex: `/m BOT SG 1 CZKKKK_2 7920 4 -1103 7920 4 -1111`  
 
 ***請注意: 前面的座標三個值都需要比後面的大或等於且兩個盒子需要在同一個橫排上**
-![第一個盒子 (1)](https://hackmd.io/_uploads/BylGYSp0T.png)
+![第一個盒子 (1)](https://hackmd.io/uploads/BylGYSp0T.png)
 
 6. 要輸出檔案可以使用`/m BOT file 檔案名稱`  
 ex: `/m BOT file materials`
@@ -29,4 +29,3 @@ ex: `/m BOT file materials`
 
 ## 授權
 本著作採用創用CC[姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)授權條款授權<br>
-此bot是以[McSngbot](https://github.com/SiongSng/McSngbot)加以製作而成
