@@ -25,3 +25,8 @@ ex: `/m BOT file materials`
 7. 生成出來的檔案會儲存在Bot目錄下的`materials.json`
 
 # 單盒多材料模式
+
+
+## 授權
+本著作採用創用CC[姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)授權條款授權<br>
+此bot是以[McSngbot](https://github.com/SiongSng/McSngbot)加以製作而成
